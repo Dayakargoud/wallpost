@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation_graph"
+    app:startDestination="@id/photosFragment">
+
+    <fragment
+        android:id="@+id/photosFragment"
+        android:name="com.dayakar.wallpost.ui.photos.PhotosFragment"
+        android:label="Pexels"
+        tools:layout="@layout/fragment_photos" >
+        <action
+            android:id="@+id/action_photosFragment_to_photoDetailsFragment"
+            app:destination="@id/photoDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/photoDetailsFragment"
+        android:name="com.dayakar.wallpost.ui.details.PhotoDetailsFragment"
+        android:label=""
+        tools:layout="@layout/photo_details_fragment" >
+        <argument android:name="photo" app:argType="com.dayakar.wallpost.model.Photo"/>
+    </fragment>
+</navigation>
