@@ -1,13 +1,12 @@
 # wallpost
 A simple image gallery app utilizing Pexel API.
 
-![Tests](https://github.com/wajahatkarim3/Imagine/workflows/Tests/badge.svg)  [![codecov](https://codecov.io/gh/wajahatkarim3/Imagine/branch/main/graph/badge.svg?token=rYP14UIojU)](https://codecov.io/gh/wajahatkarim3/Imagine)
 
 <br/>
 
 <div align="center">
-  <img src="https://github.com/wajahatkarim3/Imagine/blob/main/screenshots/PopularPhotosDay.png" width="230px" /> 
-  <img src="https://github.com/wajahatkarim3/Imagine/blob/main/screenshots/PhotoDetailsDay.png" width="230px" />
+  <img src="https://github.com/Dayakargoud/wallpost/blob/master/Screenshot_2022-05-04-10-08-00-92_5c9883c5adaaa0c3133f2660b66995ef.jpg" width="230px" /> 
+  <img src="https://github.com/Dayakargoud/wallpost/blob/master/Screenshot_2022-05-04-10-23-07-80_5c9883c5adaaa0c3133f2660b66995ef.jpg" width="230px" />
   <br>
 </div>
 
@@ -29,7 +28,7 @@ A simple image gallery app utilizing Pexel API.
   - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - Stores UI-related data that isn't destroyed on UI changes.
   - [ViewBinding](https://developer.android.com/topic/libraries/view-binding) - Generates a binding class for each XML layout file present in that module and allows you to more easily write code that interacts with views.
 - [Dependency Injection](https://developer.android.com/training/dependency-injection)
-  - [Hilt](https://dagger.dev/hilt) - Easier way to incorporate Dagger DI into Android apps. **This is in the [main branch](https://github.com/wajahatkarim3/Imagine)**.
+  - [Hilt](https://dagger.dev/hilt) - Easier way to incorporate Dagger DI into Android apps
 - [Retrofit](https://square.github.io/retrofit/) - A type-safe HTTP client for Android and Java.
 - [Material Components for Android](https://github.com/material-components/material-components-android) - Modular and customizable Material Design UI components for Android.
 
